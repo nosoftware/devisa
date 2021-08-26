@@ -7,8 +7,8 @@ const prod = {
 
 const dev = {
  url: {
-  API_URL: 'http://localhost/admin/api'
+  API_URL: 'https://my-demo.xyz/visa/api'
  }
 };
 
-export const config = prod;//process.env.NODE_ENV === 'development' ? dev : prod;
+export const config = process.env.NODE_ENV === 'development' ? dev : prod;
