@@ -4,7 +4,6 @@ const prod = {
   API_URL: 'https://my-demo.xyz/visa/api'
  }
 };
-
 const dev = {
  url: {
   API_URL: 'http://localhost/admin/api'
